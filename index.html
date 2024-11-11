@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iloilo Tourist Spots</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="images/p-2.jpg">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- wow js -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- owl crouse css file  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fakeLoader.min.css">
+    <!-- scroling aos.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+    <style>
+        /* Basic navbar styling */
+        .navbar {
+            display: flex;
+            background-color: transparent;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: transparent;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: transparent;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Hover effect */
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+    </style>
+<!-- header section starts  -->
+
+<header class="wow fadeInDown" data-wow-duration="4s" >
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="images/logo.gif" alt="logo"></a>
+
+    <nav class="navbar ">
+        <a href="index.html" class="navbar-brand">Home</a>
+        
+        
+    
+        <nav class="navbar">
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">District 1</a>
+                <div class="dropdown-content">
+                    <a href="district 1/molo.html">Molo</a>
+                    <a href="district 1/iloilo_city.html">Iloilo City</a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">District 2</a>
+                <div class="dropdown-content">
+                    <a href="district 2/leganes.html">Leganes</a>
+                    <a href="district 2/leon.html">Leon</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">District 3</a>
+                <div class="dropdown-content">
+                    <a href="district 3/badiangan.html">Badiangan</a>
+                    <a href="district 3/calinog.html">Calinog</a>
+                    <a href="district 3/lambunao.html">Lambunao</a>
+                    <a href="district 3/pototan.html">Pototan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">District 4</a>
+                <div class="dropdown-content">
+                    <a href="district4/banate.html">Banate</a>okok
+                    <a href="district4/barotacnuevo.html">Barotac Nuevo</a>okok
+                    <a href="district4/dueñas.html">Dueñas</a>ok
+                    <a href="district4/passi_city.html">Passi City</a>ok
+                    <a href="district4/san enrique.html">San Enrique</a>okokok
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">District 5</a>
+                <div class="dropdown-content">
+                    <a href="district 5/ajuy.html">Ajuy</a>okok
+                    <a href="district 5/barotac_viejo.html">Barotac Viejo</a>ok
+                    <a href="district 5/batad.html">Batad</a>ok
+                    <a href="district 5/balasan.html">Balasan</a>ok
+                    <a href="district 5/carles.html">Carles</a>ok
+                    <a href="district 5/concepcion.html">Concepcion</a>okok
+                    <a href="district 5/estancia.html">Estancia</a>ok
+                    <a href="district 5/san_rafael.html">San Rafael</a>okok
+                </div>
+            </div>
+        </nav>
+    </nav>
+    
+    
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home"  id="home">
+
+    <div class="content wow fadeInUp"data-wow-duration="4s" >
+        <h3>Iloilo <span>Tourist Spots</span></h3>
+
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <h1 class="credit"> created by <span> Guzman et al </span> | all rights reserved! </h1>
+
+</section>
+<!-- top to bottom scrolling  -->
+<!-- <div id="totopscroller"></div> -->
+<!-- preloader  -->
+<!-- <div class="fakeLoader"></div> -->
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+<!-- jaquery cdn  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- swiper-bundle.min.js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- lightbox.js -->
+<script src="js/lightbox.js"></script>
+<!-- owl.carousel.min.js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- top to bottom  -->
+<script src="js/jquery.totop.js"></script>
+<script src="js/fakeLoader.min.js"></script>
+<!-- scroling aos js  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    // owl carousel
+    $('.first_carousel').owlCarousel({
+    autoplay:true,
+    margin:10,
+    smartSpeed: 1000,
+    nav:true,
+    responsiveClass:true,
+
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true,
+          
+        }
+    }
+})
+
+// secound carousel 
+ // owl carousel
+ $('.secound_carousel').owlCarousel({
+    autoplay:true,
+    rtl:true,
+    nav:true,
+    margin:10,
+    responsiveClass:true,
+    smartSpeed: 1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true,
+          
+        }
+    }
+})
+
+// top ot bottom 
+$(function(){
+$('#totopscroller').totopscroller({
+link:'http://127.0.0.1:5500/index.html#' // show a link button
+});
+})
+
+// wow js 
+new WOW().init();
+
+// preloader
+$.fakeLoader();
+
+// aos scrolling  
+AOS.init();
+  //  water Remote Playback
+    $('.water').ripples({
+
+      // Image Url
+      imageUrl: null,
+
+      // The width and height of the WebGL texture to render to. 
+      // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+      resolution: 256,
+
+      // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+      dropRadius: 20,
+
+      // Basically the amount of refraction caused by a ripple. 
+      // 0 means there is no refraction.
+      perturbance: 0.04,
+
+      // Whether mouse clicks and mouse movement triggers the effect.
+      interactive: true,
+
+      // The crossOrigin attribute to use for the affected image. 
+      crossOrigin: ''
+    });
+   
+</script>
+
+</body>
+</html>
